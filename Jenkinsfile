@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "cloudbabu"
+    registry = "cloudbabu/web"
     dockerImage = ""
     DOCKERHUB_CREDENTIALS=credentials('dockerhub')
   }
