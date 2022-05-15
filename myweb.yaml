@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: cloudbabu/myweb:1
+      - image: cloudbabu/myweb":$BUILD_NUMBER"
         imagePullPolicy: Always
         name: myweb
 
