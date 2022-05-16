@@ -12,7 +12,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git credentialsId: 'docker_id', url: 'https://github.com/babubalagani/training.git'
+        git 'https://github.com/babubalagani/training.git'
       }
     }
 
